@@ -1,0 +1,64 @@
+/* Your button CSS file */
+
+.btn-medium {
+  text-decoration: none;
+  border: solid;
+  padding: 10px;
+  margin: 1rem;
+  background-color:rgb(212, 229, 212);
+  color:rgb(45, 43, 40);
+  transition: 300ms;
+}
+
+.btn-treehouse {
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  margin: 1rem;
+  background-color:darkgreen;
+  color:bisque;
+  box-shadow: 1px 4px 2px rgb(83, 81, 81);
+}
+
+.btn-yours {
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  margin: 0px 40px;
+  background-color:rgb(103, 17, 96);
+  color:rgb(226, 222, 209);
+  box-shadow: 1px 4px 2px rgb(133, 126, 126);
+  transition: all 0.5s ease;
+  transform: scale(1);
+  display: inline-block;
+}
+
+.btn-yours:hover {
+  padding: 15px;
+  color:rgb(219, 208, 230);
+  transition: 500ms;
+  cursor: pointer;
+  transform: scale(1.25);
+  filter: brightness(120%);
+}
+
+/* LINK BUTTON */
+
+.btn-link {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: rgb(68, 48, 48);
+  background-color: rgb(230, 199, 199);
+  border-radius: 8px;
+}
+
+.btn-link:hover {
+  color: rgb(45, 42, 42);
+  background-color:rgb(145, 142, 145);
+}

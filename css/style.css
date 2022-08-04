@@ -1,0 +1,56 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/*Importing fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Raleway:wght@300;400;500;700");
+
+/* Importing all components file */
+@import url("components/button.css");
+@import url("components/card.css");
+@import url("components/avatar.css");
+@import url("components/container.css");
+@import url("components/banner.css");
+@import url("components/socialLinks.css");
+
+/* Utilities */
+.main-container {
+  background-color: antiquewhite;
+}
+
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h4 {
+  font-family: Poppins;
+}
+
+h1 {
+  font-size: xx-large;
+}
+
+a {
+  text-decoration: none;
+}
+
+.invitation-text {
+  text-align: center;
+  font-family: Poppins;
+  color:rgb(106, 110, 100)
+}
+/* Custom design below! */
+footer {
+  text-align: center;
+  background-color:rgb(228, 228, 219);
+  height: 200px;
+}
+
+footer h3 {
+  padding-top: 80px;
+  font-family: Poppins;
+  color: grey;
+}
